@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "FORCE_COLOR=1 nf start client-dev,server-dev",
-    "start": "FORCE_COLOR=1 nf start -p 15000 client-dev,server-build-watch,server-start-watch",
+    "start": "FORCE_COLOR=1 nf start -p 15000 client-start,server-build-watch,server-start-watch",
     "postinstall": "lerna bootstrap --hoist"
   },
   "author": "",
